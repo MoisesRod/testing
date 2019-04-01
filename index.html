@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GLAMARTE</title>
+
+ <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <link rel="icon"  href="imagenes/logo.ico">
+</head>
+
+
+
+<!-- menu -->
+<body background="imagenes/fondo2.jpg">
+<p align="right" style=" font-size: 13px; color: white">Siguenos en Facebook<a href="https://www.facebook.com/profile.php?id=100015716623913&fref=ts" target="_blank"><img src="imagenes/fa.PNG" title="Siguenos en Facebook"></a></p>
+<div class="container" style="padding-top: 1em;">
+
+<!-encabezado-->
+<div>
+<h1 align="center"><img src="imagenes/glamarte2.png" width="250"></h1>
+</div>
+	  <nav class="navbar navbar-default" role="navigation">
+    <!-- El logotipo y el icono que despliega el menú se agrupan
+         para mostrarlos mejor en los dispositivos móviles -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Desplegar navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Glamarte</a>
+    </div>
+  <!termina el boton-->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav" >
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+        <li ><a  href="tienda/nosotros.html"><span class="glyphicon glyphicon-user"></span>  Nosotras</a></li>
+        <li><a href="tienda/contacto.html"><span class="glyphicon glyphicon-phone-alt"></span> Contacto</a></li>
+        <!--boton desplegable-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>
+            Tienda <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="tienda/blusas.html">Blusas</a></li>
+            <li class="divider"></li>
+            <li><a href="tienda/zapatos.html">Zapatos</a></li>
+            <li class="divider"></li>
+            <li><a href="tienda/carteras.html">Carteras</a></li>
+            <li class="divider"></li>
+            <li><a href="tienda/paquetes.html">Paquetes</a></li>
+          </ul>
+        </li>
+	</ul>
+</div>
+	</nav>
+</div>
+<!--termina menu-->
+<!comienza slider-->
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+
+<!-- aqui insertaremos el slider -->
+<div id="carousel1" class="carousel slide" data-ride="carousel">
+  <!-- Indicatodores -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel1" data-slide-to="1"></li>
+    <li data-target="#carousel1" data-slide-to="2"></li>
+   
+  </ol>
+
+  <!-- Contenedor de las imagenes -->
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+      <img src="imagenes/image2.jpg" alt="Imagen 1">
+      <div class="carousel-caption"></div>
+    </div>
+
+    <div class="item">
+      <img src="imagenes/image3.jpg" alt="Imagen 2">
+      <div class="carousel-caption"></div>
+    </div>
+
+   <div class="item">
+      <img src="imagenes/image4.jpg" alt="Imagen 4">
+      <div class="carousel-caption">
+          <h1>Glamarte</h1>
+          <p>Ventas por mayoreo y Paquetes especiales</p>
+          
+        </div>
+      </div>
+
+    
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+<!--termina slide-->
+<footer class="footer">
+<div class="container">
+<p align="center" style="font-size: 10px;  color: white">© Copyright © 2017  MAGR</p>
+
+</div>
+</footer>
+</body>
+</html>
